@@ -54,7 +54,23 @@ body {
     font-size: 50px;
 }
 
-.title-message .heading .sub {
+.slides-container {
+    position: relative;
+    text-align: center;
+    top: 0%;
+    margin-top: 450px;
+}
+
+.slides-container .services p {
+    color: antiquewhite;
+    text-shadow: 0px 2px 5px rdba(0, 0, 0, 0.4)
+}
+
+.slides-container .services .main {
+    font-size: 40px;
+}
+
+.slides-container .services .sub {
     font-size: 23px;
 }
 
@@ -66,7 +82,23 @@ body {
     max-width: 100%;
 }
 
-.solutions-section {
+.solutions-section,
+.contac-section {
     background-color: #2c3e50;
     color: #fff;
+}
+
+.contact-button {
+    color: #062cd8;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.contact-button:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2c3e50;
 }
